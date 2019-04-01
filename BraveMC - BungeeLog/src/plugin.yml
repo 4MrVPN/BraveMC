@@ -1,0 +1,4 @@
+name: BungeeLog
+main: dev.bravemc.bungeelog.BungeeLog
+version: 1.0
+author: MarvCode
