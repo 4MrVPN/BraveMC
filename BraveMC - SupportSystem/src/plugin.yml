@@ -1,0 +1,4 @@
+name: SupportSystem
+main: dev.bravemc.supportsystem.SupportSystem
+version: 1.0
+author: MarvCode
