@@ -1,0 +1,4 @@
+name: ServerInfo
+main: dev.bravemc.serverinfo.ServerInfo
+version: 1.0
+author: MarvCode
