@@ -1,0 +1,7 @@
+main: dev.bravemc.specsystem.SpecSystem
+name: SpectatorSystem
+version: 1.0
+description: SpectatorSystem for BraveMC
+author: MarvCode
+
+commands:
