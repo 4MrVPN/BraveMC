@@ -22,9 +22,9 @@ public class ServerInfo extends Plugin {
 	@Override
 	public void onEnable() {
 		instance = this;
-
-		registerListener();
 		registerCommands();
+		registerListener();
+
 		this.serverStats = new ServerStats();
 		this.cfg = new Config();
 		getCfgClass().create();
@@ -34,8 +34,6 @@ public class ServerInfo extends Plugin {
 		getMySQL().connect();
 		getMySQL().createTable();
 	}
-
-
 
 	public static ServerInfo getInstance() {
 		return instance;
@@ -70,7 +68,7 @@ public class ServerInfo extends Plugin {
 	public static String getNoPermission() {
 		return NoPermission;
 	}
-	
+
 	public static String getPrefix() {
 		return Prefix;
 	}
