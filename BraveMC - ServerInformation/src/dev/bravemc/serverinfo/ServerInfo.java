@@ -19,6 +19,7 @@ public class ServerInfo extends Plugin {
 	private ServerStats serverStats;
 	private MySQL MySQL;
 
+	// Bla
 	@Override
 	public void onEnable() {
 		instance = this;
