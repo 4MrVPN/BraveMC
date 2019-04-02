@@ -13,7 +13,7 @@ import net.md_5.bungee.config.Configuration;
 public class ServerInfo extends Plugin {
 
 	private static String Prefix = "§cServerInfo §8» §7";
-	private static String NoPermission = getPrefix() + "§cDu hast dazu keine Rechte...";
+	private static String NoPermission = getPrefix() + "§cDu hast dazu keine Rechte.";
 	private static ServerInfo instance;
 	private Config cfg;
 	private ServerStats serverStats;
